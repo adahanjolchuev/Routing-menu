@@ -1,0 +1,88 @@
+.order h1 {
+  color: #33332d;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  text-align: center;
+  margin-top: 20px;
+}
+.orderBlocks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+.orderBlock {
+  width: 786px;
+  height: 150px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.orderBlock img {
+  position: relative;
+  right: 20px;
+}
+.orderText {
+  position: relative;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.orderText h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1.08px;
+}
+.orderText h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.72px;
+}
+.orderBtns {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.delete {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  border-radius: 10px;
+  background: #bd1d1d;
+  width: 158px;
+  height: 40px;
+  border: none;
+}
+.orderCount {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.orderCount p {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}
+.orderCount button {
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1.08px;
+  border-radius: 10px;
+  background: #ddaa27;
+  border: none;
+  /* padding: 1px 5px; */
+  width: 50px;
+  height: 38px;
+}
